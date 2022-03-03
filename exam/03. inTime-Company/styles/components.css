@@ -1,0 +1,21 @@
+.btn {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-btn-gray);
+    color: #e0e0e2;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn--primary {
+    font-size: 1.5rem;
+    padding: 0.8rem 2rem;
+    border-radius: 1.5rem;
+    background-color: var(--color-main-blue);
+}
+
+.btn--secondary {
+    border-radius: 1.5rem;
+    padding: 0.8rem 1.5rem;
+}

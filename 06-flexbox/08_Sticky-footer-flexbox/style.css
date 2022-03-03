@@ -1,0 +1,37 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+h1,
+h2,
+p {
+    padding: 0 2rem;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}

@@ -1,0 +1,40 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    margin: 16px;
+    border-bottom: 1px solid black;
+}
+
+header h1 {
+    display: inline-block;
+    padding-right: 32px;
+}
+
+header nav {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+
+header nav li {
+    display: inline-block;
+}
+
+header nav li a {
+    font-size: small;
+    padding-left: 16px;
+    text-decoration: none;
+    color: green;
+}
+
+main {
+    margin: 16px;
+}
+
+main h1 {
+    font-family: Georgia, serif;
+    font-weight: 300;
+}

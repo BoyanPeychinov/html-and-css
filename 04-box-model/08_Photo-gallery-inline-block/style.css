@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(238, 238, 238);
+    box-sizing: border-box;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section ul.gallery {
+    list-style: none;
+    
+}
+
+section ul.gallery li {
+    display: inline-block;
+    vertical-align: middle;
+    border: 0.4rem solid black;
+    width: 29%;
+    margin: 8px;
+    padding: 6px;
+}
+
+section ul.gallery li img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

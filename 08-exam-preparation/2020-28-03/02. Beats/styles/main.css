@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url("./reset.css");
+@import url("./components.css");
+
+html {
+    font-family: "Open Sans", sans-serif;
+    background-color: #575757;
+}
+
+body {
+    padding: 3rem 0;
+    background-color: #ffffff;
+}
+
+.head {
+    padding: 1rem 2rem;
+    margin-inline: 6rem;
+}
+
+.head .navi .links {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 10px;
+}
+
+.head .navi .links .link a {
+    color: #9d9d9d;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.2;
+    cursor: pointer;
+}
+
+#beats {
+    margin: 1rem auto;
+}
+
+/* General styles for sections */
+
+.section {
+    margin: 3rem 7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.col-sm {
+    width: 45%;
+}
+
+.col-lg {
+    width: 55%;
+}
+
+/* Solo section */
+
+.solo {
+    margin-bottom: 10rem;
+}
+
+.solo .solo__title {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    margin-top: 10rem;
+}
+
+.solo .solo__desc {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.solo .col-sm {
+    width: 48%;
+    margin: 4.5rem 0;
+}
+
+.solo .col-lg {
+    width: 70%;
+    position: relative;
+}
+
+.solo .solo__img {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    right: -49px;
+}
+
+/* Power section */
+
+.power {
+    padding-top: 10rem;
+    gap: 2rem
+}
+
+.power .power__title {
+    padding: 0.3rem;
+    font-size: 5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.power .power__subTitles .subTitle {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.power .power__subTitles .subTitle:first-child {
+    font-weight: bold;
+    padding-left: 6.5rem;
+}
+
+.power .power__desc {
+    font-size: 1.35rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-bottom: 5rem;
+}
+
+.power .power__price {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-right: 2rem;
+    vertical-align: middle;
+}
+
+.power .btn {
+    vertical-align: middle;
+}
+
+.power .col-lg {
+    position: relative;
+}
+
+.power .power__img {
+    width: 85%;
+    position: absolute;
+    top: -0.25rem;
+    right: 8rem;
+}
+
+/* Read more divider */
+
+.read-more {
+    width: 100%;
+    height: 50vh;
+    background-color: #575757;
+    margin-top: 5rem;
+    vertical-align: top;
+}
+
+.read-more .wrapper {
+    text-align: center;
+    vertical-align: middle;
+    padding: 3.5rem;
+    margin-bottom: 1.5rem; 
+}  
+
+.read-more .logo {
+    vertical-align: middle;
+    
+}
+
+.read-more .offer {
+    display: inline-block;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: middle;
+    margin-left: 2rem;
+}
+
+.read-more .offer span,
+.read-more .link {
+    font-weight: bold;
+}
+
+.read-more .link {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.read-more .link a {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+/* Gallery section */
+
+.gallery {
+    display: flex;
+}
+
+.gallery .left-col img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.gallery .right-col {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadada;
+}
+
+.gallery .right-col .info {
+    display: inline-block;
+    width: 50%;
+}
+
+.gallery .right-col .info h2 {
+    color: #333333;
+    font-size: 8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.gallery .right-col .info p {
+    font-size: 3rem;
+    letter-spacing: -5px;
+    color: #6e6e6e;
+    padding-left: 1.5rem;
+}
+
+.gallery .right-col .info span {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+/* Footer */
+
+.foot p {
+    width: 15%;
+    margin: 2rem auto 0;
+}
+

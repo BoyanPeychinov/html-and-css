@@ -1,0 +1,35 @@
+html { 
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding-right: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0,153,0);
+}
+
+header span {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+main h1 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}

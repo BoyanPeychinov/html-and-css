@@ -1,0 +1,19 @@
+.viewport{
+    position: relative;
+}
+
+.viewport:nth-child(odd){
+    background: linear-gradient(to right, #01497c, #09bc8a);
+}
+
+.viewport:nth-child(even) {
+    background: linear-gradient(to right, #941b85, #f48c06);
+}
+
+
+.viewport:nth-child(odd) .card {
+    display: block;
+    position: absolute;
+}
+
+

@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+.header img {
+    width: 15%;
+}
+
+.header .navi {
+    width: 15%;
+}
+
+.header .navi .navi__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navi .navi__items .navi__item {
+    min-width: 150px;
+    text-align: center;
+}
+
+.header .navi .navi__items .navi__item a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-gray)
+}
+
+.header .navi .navi__items .navi__item.btn a {
+    color: var(--color-blue);
+}
