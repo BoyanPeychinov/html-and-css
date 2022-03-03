@@ -2,12 +2,15 @@
 
 server.js
 
+.zip
+
 #images
 .jpg
 .jpeg
 .svg
 .png
 .gif
+.img
 
 # compiled output
 /dist
